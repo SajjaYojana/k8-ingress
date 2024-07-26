@@ -20,12 +20,12 @@ spec:
     spec:
       containers:
       - name: app1
-        image: joindevops/app1:1.0
+        image: yojana01/app1:1.0
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx
+  name: app1
 spec:
   selector:
     app: app1
